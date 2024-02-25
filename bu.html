@@ -4,30 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Сайт булочной</title>
-    <link rel="busheet" type="text/css" href="bu.css">
+    <link rel="stylesheet" type="text/css" href="bu.css">
 </head>
 <body>
-    <a class="nav-item">
-        <img src="./images/logo.svg" alt="Логотип сайта" class="logo">
-        <img src="./images/korzina.svg" alt="Корзина" class="korzina">
-    </a>
     <div class="header">
-        <h1 class="header-l">
-            Продукция
-            Акции
-            Контакты
-        </h1>
+        <div class="nav-item">
+            <a href="@">
+                <img src="./images/logo.svg" alt="Логотип сайта" class="logo">
+            </a>
+            <a href="@">
+                <img src="./images/korzina.svg" alt="Корзина" class="korzina">
+            </a>
+        </div>
+            <div class="nav">
+                <a class="nav-item" href="@"> Продукция</a>
+                <a class="nav-item" href="@"> Акции</a>
+                <a class="nav-item" href="@"> Контакты</a>
+            </div>
+        <h2>&bull;Оформление заказа&bull;</h2>
     </div>
-    <h2>&bull;Оформление заказа&bull;</h2>
-    <section>
+    <section class="pod">
         <form action="/search">
-            <p style="color: blue;">Ваше имя*</p>
+            <p>Ваше имя*</p>
                 <label>
-                    <input type="pin" placeholder="Введите имя">
+                    <input class="podd" type="pin" placeholder="Введите имя">
                 </label>
             <p>Ваш телефон*</p>
                 <label>
-                    <input type="pin" placeholder="Введите телефон">
+                    <input class="podd" type="pin" placeholder="Введите телефон">
                 </label>
             <p>Желаемая дата доставки*</p>
                 <label>
@@ -39,7 +43,7 @@
                 </label>
             <p>Адресс доставки*</p>
                 <label>
-                    <input type="pin" placeholder="Введите адресс">
+                    <input class="podd" type="pin" placeholder="Введите адресс">
                 </label>
             <p>
                 Подъезд*
@@ -47,9 +51,9 @@
                 Квартира*
             </p>
                 <label>
-                    <input type="pin" placeholder="Подъезд">
-                    <input type="pin" placeholder="Этаж">
-                    <input type="pin" placeholder="Квартира">
+                    <input class="podd" type="pin" placeholder="Подъезд">
+                    <input class="podd" type="pin" placeholder="Этаж">
+                    <input class="podd" type="pin" placeholder="Квартира">
                 </label>
             <p>Комментарии к заказу</p>
                 <label>

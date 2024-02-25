@@ -1,3 +1,41 @@
+@font-face{
+    font-family: "FrizQuadrataC-BoldItalic";
+    src: url(fonts/FrizQuadrataC-BoldItalic.otf);
+    font-style: normal;
+    font-display: swap;
+}
+@font-face{
+    font-family: "FrizQuadrataC-Italic";
+    src: url(fonts/FrizQuadrataC-Italic.otf);
+    font-style: normal;
+    font-display: swap;
+}
+.nav-item {
+    font-family: "FrizQuadrataC-Italic";
+    color: #481D09;
+    text-decoration: none;
+    font-size: 13px 
+}
 h2{
-    color: blue;
+    font-family: "FrizQuadrataC-BoldItalic";
+    color: #481D09;
+    font-size: 32px
+}
+.pod{
+    font-family: "FrizQuadrataC-Italic";
+    color: #481D09;
+    font-size: 19px
+}
+.podd{
+    font-family: "FrizQuadrataC-Italic";
+    color: #481d09;
+    font-size: 19px
+}
+.logo{
+    height: 71px;
+    width: 94px;
+}
+.korzina{
+    height: 44px;
+    width: 44px;
 }
