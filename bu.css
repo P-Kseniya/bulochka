@@ -10,10 +10,15 @@
     font-style: normal;
     font-display: swap;
 }
+.container{
+    margin: 91px 141px;
+    display: flex;
+}
 .nav-item {
     font-family: "FrizQuadrataC-Italic";
     color: #481D09;
     text-decoration: none;
+    margin-right: 75px;
     font-size: 13px 
 }
 h2{
