@@ -31,9 +31,9 @@ h2{
     color: #481D09;
     font-size: 19px
 }
-.podd{
+input::placeholder {
     font-family: "FrizQuadrataC-Italic";
-    color: #481d09;
+    color: #481d099e;
     font-size: 19px
 }
 .logo{
@@ -43,4 +43,14 @@ h2{
 .korzina{
     height: 44px;
     width: 44px;
+}
+.address{
+    display: flex;
+}
+.address-item{
+    margin-right: 30px;
+}
+.podd{
+    height: 60px;
+    width: 545px;
 }
