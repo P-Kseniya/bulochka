@@ -9,23 +9,21 @@
 <body>
     <div class="header">
         <div class="container">
-            <div class="nav-im">
-                <a href="@">
-                    <img src="./images/logo.svg" alt="Логотип сайта" class="logo">
-                </a>
-                <a href="@">
-                    <img src="./images/korzina.svg" alt="Корзина" class="korzina">
-                </a>
+            <a href="@">
+                <img src="./images/logo.svg" alt="Логотип сайта" class="logo">
+            </a>
+            <div class="nav">
+                <a class="nav-item" href="@"> Продукция</a>
+                <a class="nav-item" href="@"> Акции</a>
+                <a class="nav-item" href="@"> Контакты</a>
             </div>
-                <div class="nav">
-                    <a class="nav-item" href="@"> Продукция</a>
-                    <a class="nav-item" href="@"> Акции</a>
-                    <a class="nav-item" href="@"> Контакты</a>
-                </div>
+            <a href="@">
+                <img src="./images/korzina.svg" alt="Корзина" class="korzina">
+            </a>
         </div>
     </div>
     <section class="pod">
-        <h2>&bull;Оформление заказа&bull;</h2>
+        <h1>&bull;Оформление заказа&bull;</h1>
         <form action="/search">
             <p>Ваше имя*</p>
                 <label>
@@ -37,11 +35,11 @@
                 </label>
             <p>Желаемая дата доставки*</p>
                 <label>
-                    <input type="date">
+                    <input class="date" type="date">
                 </label>
             <p>Желаемое время доставки*</p>
                 <label>
-                    <input type="time">
+                    <input class="time" type="time">
                 </label>
             <p>Адресс доставки*</p>
                 <label>
@@ -53,9 +51,9 @@
                 <p class="address-item">Квартира*</p>
             </div>
                 <label>
-                    <input class="podd" type="pin" placeholder="Подъезд">
-                    <input class="podd" type="pin" placeholder="Этаж">
-                    <input class="podd" type="pin" placeholder="Квартира">
+                    <input class="address-podd" type="pin" placeholder="Подъезд">
+                    <input class="address-podd" type="pin" placeholder="Этаж">
+                    <input class="address-podd" type="pin" placeholder="Квартира">
                 </label>
             <p>Комментарии к заказу</p>
                 <label>
@@ -63,10 +61,10 @@
                 </label>
         </form>
     </section>
-    <n>
+    <p>
         Сумма  заказа:
         000.00
-    </n>
-    <button type="button">Перейти к оплате</button>
+    </p>
+    <button name="Перейти к оплате" type="submit">Перейти к оплате</button>
 </body>
 </html>
