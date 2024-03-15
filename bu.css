@@ -14,11 +14,15 @@ body{
     background-color: #F2EAE6;
     display: flex;
 }
-main{
+main {
+    margin: 83px 121px 0px 121px;
+    display: flex;
+}
+/*.main{
     margin: 83px 121px 0px 121px;
     display: flex;
     background-color: #FAF6F1;
-}
+}*/
 .container{
     display: flex;
 }
