@@ -12,23 +12,35 @@
 }
 body{
     background-color: #F2EAE6;
-    display: flex;
 }
 main {
     margin: 83px 121px 0px 121px;
-    display: flex;
-}
-/*.main{
-    margin: 83px 121px 0px 121px;
-    display: flex;
     background-color: #FAF6F1;
-}*/
+    background-size: cover;
+}
 .container{
+    padding-top: 8px;
     display: flex;
+    align-items: center;
+    justify-content:space-between;
 }
 .logo{
-    padding-top: 8px;
-    padding-right: 20px;
+    height: 71px;
+    width: 94px;
+    margin-left: 20px;
+}
+.korzina{
+    height: 44px;
+    width: 44px;
+    margin-right: 58px;
+}
+.nav{
+    background-color: #E6D0C6;
+    width: 313px;
+    padding: 14px 36px;
+    display: flex;
+    align-items: center;
+    margin-left: 160px;
 }
 .nav-item {
     font-family: "FrizQuadrataC-Italic";
@@ -38,9 +50,13 @@ main {
     font-size: 13px 
 }
 h1{
+    text-align: center;
     font-family: "FrizQuadrataC-BoldItalic";
     color: #481D09;
     font-size: 32px
+}
+.podd-item{
+    justify-items: center;
 }
 .pod{
     font-family: "FrizQuadrataC-Italic";
@@ -51,14 +67,6 @@ input::placeholder {
     font-family: "FrizQuadrataC-Italic";
     color: #481d099e;
     font-size: 19px
-}
-.logo{
-    height: 71px;
-    width: 94px;
-}
-.korzina{
-    height: 44px;
-    width: 44px;
 }
 .address{
     display: flex;
