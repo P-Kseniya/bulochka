@@ -10,9 +10,21 @@
     font-style: normal;
     font-display: swap;
 }
-.container{
-    margin: 91px 141px;
+body{
+    background-color: #F2EAE6;
     display: flex;
+}
+main{
+    margin: 83px 121px 0px 121px;
+    display: flex;
+    background-color: #FAF6F1;
+}
+.container{
+    display: flex;
+}
+.logo{
+    padding-top: 8px;
+    padding-right: 20px;
 }
 .nav-item {
     font-family: "FrizQuadrataC-Italic";
